@@ -12,11 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// const result = React.createElement("h1", { id: "result" }, [
-//   React.createElement("h1", {}, "I am an h1 tag"),
-//   React.createElement("h1", {}, "I am an h2 tag"),
-//   [React.createElement("h6", {}, "I am h6 tag")],
-// ]);
+
 library.add(faSearch);
 const Header = () => {
   return (
